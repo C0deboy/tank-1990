@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+}
+
+#fullscreen {
+  position: fixed;
+  right: 0;
+  padding: 20px;
+}
+
+.pad {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+
+.padLeft {
+  float: left;
+  padding: 5px;
+}
+
+.padRight {
+  float: right;
+  padding: 5px;
+}
+
+#padX,
+#padTriangle,
+#padUp,
+#padDown,
+#padCircle{
+  margin-left: 54px;
+}
+
+#padRight{
+  margin-left: 26px;
+}
+
+#padDown {
+  margin-top: -15px;
+}
+#padUp {
+  margin-bottom: -15px;
+}

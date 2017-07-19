@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+  <meta charset="utf-8" />
+  <meta name="description" content="The old-school retro game Tank 1990 / Battle City build from scratch in phaser!">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <title>Tank 1990 - Battle City</title>
+
+  <link rel="shortcut icon" href="assets/sprites/logo.ico">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="dist/main.css">
+
+</head>
+<body>
+
+<input type="image" src="./assets/sprites/fullscreenBtn.png" id="fullscreen"/>
+
+<div class="pad">
+  <div class="padLeft">
+    <input type="image" src="./assets/pad/up.png" id="padUp"/><br>
+    <input type="image" src="./assets/pad/left.png" id="padLeft"/>
+    <input type="image" src="./assets/pad/right.png" id="padRight"/><br>
+    <input type="image" src="./assets/pad/down.png" id="padDown"/>
+  </div>
+
+  <div class="padRight">
+
+    <input type="image" src="./assets/pad/triangle.png" id="padTriangle"/><br>
+    <input type="image" src="./assets/pad/square.png" id="padSquare"/>
+    <input type="image" src="./assets/pad/circle.png" id="padCircle"/><br>
+    <input type="image" src="./assets/pad/x.png" id="padX"/>
+  </div>
+</div>
+
+
+<script src="src/phaser.min.js"></script>
+<script src="dist/bundle.js"></script>
+
+</body>
+</html>
